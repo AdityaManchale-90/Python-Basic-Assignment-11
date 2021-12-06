@@ -4,5 +4,8 @@
 
 spam = int(input("Enter an integer:"))
 
-assert spam > 0, "Only positive numbers are allowed."
-print(spam," is a positive number.")
+if spam == 0:
+    print(spam, "is neither negative integer nor positive")
+else:
+    assert spam >= 0, "Only positive numbers are allowed."
+    print(spam," is a positive number.")
