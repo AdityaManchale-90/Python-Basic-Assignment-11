@@ -1,0 +1,8 @@
+# 1. Create an assert statement that throws an AssertionError if the variable spam is a negative integer.
+
+# This program will returns the Assertion Error if the variable is a negative number from the user input.
+
+spam = int(input("Enter an integer:"))
+
+assert spam > 0, "Only positive numbers are allowed."
+print(spam," is a positive number.")
