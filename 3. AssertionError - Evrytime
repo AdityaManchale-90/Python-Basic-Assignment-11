@@ -1,0 +1,7 @@
+# 3. Create an assert statement that throws an AssertionError every time.
+
+# This program will raise an AssertionError everytime user inputs anything.
+
+user = input("Enter anything:")
+
+raise AssertionError(user, "User not allowed.")
